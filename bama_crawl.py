@@ -33,6 +33,7 @@ excel_num = 0
 defaul_images_count = 0
 
 
+
 for i in range(1,num//4):
    prgrs = i//31+1
    print('\n**********','Please Wait',prgrs * chr(35),str(round(i/num*100,2))+'% Completed','**********\n',sep = '\n')
