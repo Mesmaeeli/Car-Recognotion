@@ -9,6 +9,7 @@ from openpyxl import Workbook
 from threading import Timer
 import signal
 
+
 w = Workbook()
 sheet = w.active
 sheet['A1'] = 'brand'
